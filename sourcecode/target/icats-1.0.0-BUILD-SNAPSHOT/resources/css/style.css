@@ -1,0 +1,257 @@
+.input-group {
+    display: table;
+    border-collapse: separate;
+}
+
+td .input-group {
+     max-width: 200px;
+     margin: 0 auto;
+ }
+
+.customer_all_list tr {
+    width: 100%;
+    display: inline-table;
+    table-layout: fixed;
+}
+
+.table tbody tr td a{
+   margin-bottom: 5px;
+}
+.table tbody tr td button{
+   margin-bottom: 5px;
+}
+
+.table thead tr th a{
+   margin-bottom: 5px;
+}
+.table thead tr th button{
+   margin-bottom: 5px;
+}
+
+.table thead tr th.td-search-reset {
+    vertical-align: middle;
+}
+
+.table thead tr td.td-search-reset {
+    vertical-align: middle;
+}
+
+.customer_all_list table {
+    display: -moz-groupbox;
+}
+
+.customer_all_list tbody {
+    overflow-y: scroll;
+    height: 300px;
+    position: absolute;
+}
+
+#customerList table tr td.customer-building-name,
+#customerList table tr td.customer-delete,
+#customerList table tr td.customer-visitorder,
+#selectCustomerList table tr td.customer-lat,
+#selectCustomerList table tr td.customer-checkbox,
+#selectCustomerList table tr td.customer-long {
+    display: none;
+}
+
+#mapContainer .map-fa {
+    background: none rgb(255, 255, 255);
+    border: 0;
+    margin: 10px 14px; padding: 0;
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    width: 30px; height: 30px;
+    overflow: hidden;
+    top: 0;
+    right: 20px;
+    z-index: 1000;
+}
+
+/*#mapContainer .map-fa img {*/
+    /*position: absolute;*/
+    /*left: -52px;*/
+    /*top: -86px;*/
+    /*width: 164px;*/
+    /*height: 175px;*/
+    /*user-select: none; border: 0;*/
+    /*padding: 0;*/
+    /*margin: 0;*/
+/*}*/
+
+.div_left-230 {
+    margin-left: 230px;
+}
+
+.title-left {
+    text-align: left;
+}
+
+.item-border-bottom {
+    border-bottom: 1px solid #ddd;
+}
+
+.item-border-top {
+    border-top: 1px solid #ddd;
+}
+
+.btn-confirm {
+    padding: 5px 20px;
+}
+
+.btn-cancel {
+    padding: 5px 10px;
+}
+
+#messageList, #alertList {
+    display: table;
+}
+#messageList div, #alertList div {
+    color: red;
+    font-size: 1em;
+    padding: 3px;
+    margin: 1px;
+}
+.alert {
+    opacity: 0.75;
+}
+
+.ml5{
+    margin-left: 5px!important;
+}
+
+.ml10{
+    margin-left: 10px!important;;
+}
+
+.ml15{
+    margin-left: 15px!important;;
+}
+
+.ml20{
+    margin-left: 20px!important;;
+}
+
+.pl5{
+    padding-left: 5px!important;;
+}
+
+.pl10{
+    padding-left: 10px!important;;
+}
+
+.pl15{
+    padding-left: 15px!important;;
+}
+
+.pl20{
+    padding-left: 20px!important;;
+}
+
+.pl30{
+    padding-left: 30px!important;;
+}
+
+.mt20 {
+    margin-top: 20px !important;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+.mt40 {
+    margin-top: 40px !important;
+}
+
+.route_meno {
+    padding: 5px;
+    /*border: 1px solid;*/
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1032px) {
+    .content {
+        width: 1033px;
+        overflow-x: auto;
+    }
+}
+
+
+@media only screen and (max-width: 1279px) {
+    body {
+        width: 100%; overflow: auto;
+    }
+    .wrapper {
+        width: 1280px;
+        overflow-x: auto;
+    }
+}
+@media only screen and (max-width: 1280px) {
+    td .input-group input {
+        max-width: 40px;
+        margin: 0 auto;
+    }
+}
+
+.word-wrap {
+    word-break: break-all;
+// word-wrap: break-word;
+// overflow-wrap: break-word;
+}
+
+.select2-container--default .select2-selection--single, .select2-selection .select2-selection--single {
+    border-radius: 4px;
+}
+.input-sm+.select2-container--default .select2-selection--single,.input-sm+.select2-selection .select2-selection--single {
+    height: 30px;
+}
+
+.alert .close {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.login-logo {
+    font-size: 30px;
+}
+
+.btn-call {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.btn-call-left {
+    left:25%;
+}
+
+.btn-call-right {
+    right:25%;
+}
+
+.btn-call-center {
+    left:43%;
+}
+
+.highlight {
+    background-color: #00c0ef;
+}
+
+.fullscreen {
+    z-index: 9999!important;
+    width: 100%!important;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.required-field:after {
+    content: ' *';
+    color: red;
+}

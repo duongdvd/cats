@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.col-sm-5 {
+    width: 15.666667%;
+}
+
+.col-sm-7.text-right {
+    padding-left: 0px;
+    width: 84.333333%;
+    float:  right;
+}
+
+section.content-header {
+    padding: 8px 15px 0 15px;
+}
+
+ul.pagination {
+    margin: 6px 0px;
+}
+
+section#content {
+    padding: 0px 15px;
+}
+
+.panel-footer {
+    padding: 0px 15px;
+}
+
+.box-body {
+    margin-bottom: 22px;
+}
+
+.box.box-info.direct-chat.direct-chat-info {
+    height: calc(100vh - 390px);
+}
+
+.padingMessage {
+    position:  absolute;
+    bottom: 0px;
+    width:  100%;
+    background-color: white;
+    height: 30px;
+}
+
+footer#footer {
+    position:  absolute;
+    bottom:  0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+}
+
+img.iconPath {
+    float:  right;
+    width: 12%;
+}
+
+i.fa.fa-taxi.fa-3x {
+    float:  right;
+}
+
+
+
+i.fa.fa-user.fa-3x {
+    float:  left;
+}
